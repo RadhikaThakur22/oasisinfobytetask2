@@ -1,17 +1,3 @@
-# oasisinfobytetask2
-Project: Unemployment Rate Analysis
-This project analyzes and visualizes the unemployment rate using data analytics techniques. The project utilizes historical unemployment rate data and employs various analytical methods to gain insights and make informed decisions regarding employment trends.
+The Unemployment Rate Prediction project is a machine learning-based approach to analyse and forecast unemployment trends over time. Using historical unemployment data containing attributes such as region, date, and unemployment rate, the project aims to identify patterns, understand economic fluctuations, and make accurate predictions for future unemployment levels. Data preprocessing and cleaning were performed using Pandas and NumPy to handle missing values, convert date formats, and prepare the dataset for modelling. Visual exploration was conducted using Matplotlib and Seaborn, generating insightful plots such as time series graphs, heatmaps, and trend lines to understand the data distribution and seasonal variations better.
 
-Table of Contents
-Project Overview
-Data Sources
-Results and Visualizations
-
-Project Overview
-The goal of this project is to analyze the unemployment rate over a specific period and provide meaningful insights. It involves performing data cleaning, exploration, visualization, and potentially applying statistical techniques to understand patterns, trends, and factors affecting unemployment.
-
-Data Sources
-The project utilizes unemployment rate data from reliable sources such as government statistical agencies or publicly available datasets. The specific data source(s) used in this project are mentioned in the documentation or comments within the code files.
-
-Results and Visualizations
-The project generates various visualizations and reports to present the insights obtained from the analysis. The resulting visualizations and generated accounts will be saved in the results/ directory. These visualizations can include line charts, bar graphs, pie charts, heatmaps, or any other suitable representation for conveying the analyzed information
+The predictive modelling was implemented using Scikit-learn, experimenting with algorithms such as Linear Regression, Random Forest Regressor, and XGBoost to determine the best-performing model. Model performance was evaluated using metrics like R² score, Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE), with the final model delivering highly reliable forecasts. This project demonstrates the application of supervised machine learning for economic analysis and serves as a valuable tool for policymakers, researchers, and analysts aiming to monitor and predict labour market conditions effectively.
